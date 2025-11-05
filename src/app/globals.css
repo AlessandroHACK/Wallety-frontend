@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+@theme {
+
+--color-patina-50: #f4f9f7;
+--color-patina-100: #dcebe6;
+--color-patina-200: #b8d7cc;
+--color-patina-300: #8dbbad;
+--color-patina-400: #63998a;
+--color-patina-500: #4b8173;
+--color-patina-600: #3b665c;
+--color-patina-700: #32534c;
+--color-patina-800: #2b443e;
+--color-patina-900: #273a36;
+--color-patina-950: #13201e;
+
+
+
+}
