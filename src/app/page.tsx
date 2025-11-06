@@ -20,7 +20,7 @@ export default function Home() {
         Wallety te ayuda a tomar el control de tus finanzas personales. Registra, analiza y planea tus presupuestos con facilidad y estilo.
       </p>
 
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl text-center">
         <div className="bg-white/10 rounded-2xl p-6 flex flex-col items-center backdrop-blur-sm hover:bg-white/20 transition-all">
           <FiTrendingUp className="text-patina-400 text-4xl mb-3" />
           <h3 className="text-lg font-semibold mb-2">Monitorea tu progreso</h3>
@@ -33,17 +33,18 @@ export default function Home() {
           <FiPieChart className="text-patina-400 text-4xl mb-3" />
           <h3 className="text-lg font-semibold mb-2">Organiza tu presupuesto</h3>
           <p className="text-sm text-gray-300">
-            Divide tus ingresos por categorías y mantén el control mes a mes.
+            Divide tus ingresos y mantén el control mes a mes.
           </p>
         </div>
 
         <div className="bg-white/10 rounded-2xl p-6 flex flex-col items-center backdrop-blur-sm hover:bg-white/20 transition-all">
           <FiShield className="text-patina-400 text-4xl mb-3" />
-          <h3 className="text-lg font-semibold mb-2">Tu seguridad primero</h3>
+          <h3 className="text-lg font-semibold mb-2">Control total</h3>
           <p className="text-sm text-gray-300">
-            Tus datos están cifrados y protegidos con tecnología de nivel bancario.
+            Lleva tus finanzas de forma simple, organizada y hecha a tu ritmo.
           </p>
         </div>
+
       </div>
 
 
