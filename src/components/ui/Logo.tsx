@@ -12,6 +12,7 @@ export default function Logo({ width = 200, height = 100, className = "" }: Logo
       src="/logo.png"
       alt="Wallety"
       fetchPriority="high"
+      priority
       width={width}
       height={height}
       className={className}
